@@ -1,7 +1,7 @@
 # GTNH-InGame-Info-XML-Configs
 Required Mods
--InGame Info XML https://minecraft.curseforge.com/projects/ingame-info-xml
--LunatriusCore https://minecraft.curseforge.com/projects/lunatriuscore
+1. InGame Info XML https://minecraft.curseforge.com/projects/ingame-info-xml
+2. LunatriusCore https://minecraft.curseforge.com/projects/lunatriuscore
 
 A collection of helpful InGame Info XML configs for GT New Horizons.
 
