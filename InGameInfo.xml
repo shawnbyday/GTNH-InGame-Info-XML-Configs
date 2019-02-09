@@ -11,13 +11,22 @@
     </line>
     <line>
       <if>
-        <equal>
-          <modi>
-            <num>{chunkx}</num>
-            <num>3</num>
-          </modi>
-          <num>1</num>
-        </equal>
+        <or>
+          <equal>
+            <modi>
+              <num>{chunkx}</num>
+              <num>3</num>
+            </modi>
+            <num>1</num>
+          </equal>
+          <equal>
+            <modi>
+              <num>{chunkx}</num>
+              <num>3</num>
+            </modi>
+            <num>-1</num>
+          </equal>
+        </or>
         <concat>
           <str>$acX: </str>
           <num>$a{chunkx}</num>
@@ -32,13 +41,22 @@
     </line>
     <line>
       <if>
-        <equal>
-          <modi>
-            <num>{chunkz}</num>
-            <num>3</num>
-          </modi>
-          <num>1</num>
-        </equal>
+        <or>
+          <equal>
+            <modi>
+              <num>{chunkz}</num>
+              <num>3</num>
+            </modi>
+            <num>1</num>
+          </equal>
+          <equal>
+            <modi>
+              <num>{chunkz}</num>
+              <num>3</num>
+            </modi>
+            <num>-1</num>
+          </equal>
+        </or>
         <concat>
           <str>$acZ: </str>
           <num>$a{chunkz}</num>
