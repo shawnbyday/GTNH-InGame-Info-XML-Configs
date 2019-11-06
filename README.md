@@ -5,12 +5,12 @@ Required Mods
 
 A collection of helpful InGame Info XML configs for GT New Horizons.
 
-1. Simply drop the THEMENAME.xml file into your config folder.
+1. Simply drop the Minimalist.xml file into your config folder.
 2. Load your world.
-3. Type: /igi load InGameInfo.xml
+3. Type: /igi load Minimalist.xml
 
-If you wish to create an InGame Info (IGI) overlay please add the following xml comment to the top of the xml configuration file: <!-- Theme: NAME Author: YOURNAME/GITHUB Version: VERSION -->
+If you wish to create an InGame Info (IGI) overlay please add the following XML comment to the top of the XML configuration file: <!-- Theme: NAME Author: YOURNAME/GITHUB Version: VERSION -->
 
-Name your file the same name as your theme. You can view one of the other themes for an example.
+Name your configuration file the same name as your theme. You can view one of the other themes for an example.
 
-You're free to use any versioning scheme you wish, however the default scheme will be major/minor. Examples: 1.0, 1.2, 3.9.
+You're free to use any versioning scheme you wish, however, the default scheme will be major.minor. Examples: 1.0, 1.2, 3.9.
